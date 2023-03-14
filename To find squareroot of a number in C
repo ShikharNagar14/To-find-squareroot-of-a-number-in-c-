@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int num,sqrt1;
+    printf("Enter the number:\n");
+    scanf("%d",&num);
+    sqrt1=sqrt(num);
+    printf("The square root of a number is %d",sqrt1);
+
+
+}
+
+To find power of a number in C
+// int main()
+// {
+//     int x, y,power;
+//     printf("Enter the x:\n");
+//     scanf("%d", &x);
+//     printf("Enter the y:\n");
+//     scanf("%d", &y);
+//     power=pow(x,y);
+//     printf("power of x^y is = %d \n",power);
+// }
+
